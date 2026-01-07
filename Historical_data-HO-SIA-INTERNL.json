@@ -1,0 +1,236 @@
+[
+  {
+    "Month_ISO": "2022-04-01T00:00:00Z",
+    "Month_Friendly": "April 2022",
+    "SalesQty": 10241.8,
+    "content": "Month: April 2022, Sales: 10241.8"
+  },
+  {
+    "Month_ISO": "2022-05-01T00:00:00Z",
+    "Month_Friendly": "May 2022",
+    "SalesQty": 14252.6,
+    "content": "Month: May 2022, Sales: 14252.6"
+  },
+  {
+    "Month_ISO": "2022-06-01T00:00:00Z",
+    "Month_Friendly": "June 2022",
+    "SalesQty": 12102.0,
+    "content": "Month: June 2022, Sales: 12102.0"
+  },
+  {
+    "Month_ISO": "2022-07-01T00:00:00Z",
+    "Month_Friendly": "July 2022",
+    "SalesQty": 11377.0,
+    "content": "Month: July 2022, Sales: 11377.0"
+  },
+  {
+    "Month_ISO": "2022-08-01T00:00:00Z",
+    "Month_Friendly": "August 2022",
+    "SalesQty": 12833.0,
+    "content": "Month: August 2022, Sales: 12833.0"
+  },
+  {
+    "Month_ISO": "2022-09-01T00:00:00Z",
+    "Month_Friendly": "September 2022",
+    "SalesQty": 8963.0,
+    "content": "Month: September 2022, Sales: 8963.0"
+  },
+  {
+    "Month_ISO": "2022-10-01T00:00:00Z",
+    "Month_Friendly": "October 2022",
+    "SalesQty": 14891.0,
+    "content": "Month: October 2022, Sales: 14891.0"
+  },
+  {
+    "Month_ISO": "2022-11-01T00:00:00Z",
+    "Month_Friendly": "November 2022",
+    "SalesQty": 9739.0,
+    "content": "Month: November 2022, Sales: 9739.0"
+  },
+  {
+    "Month_ISO": "2022-12-01T00:00:00Z",
+    "Month_Friendly": "December 2022",
+    "SalesQty": 14634.4,
+    "content": "Month: December 2022, Sales: 14634.4"
+  },
+  {
+    "Month_ISO": "2023-01-01T00:00:00Z",
+    "Month_Friendly": "January 2023",
+    "SalesQty": 11158.0,
+    "content": "Month: January 2023, Sales: 11158.0"
+  },
+  {
+    "Month_ISO": "2023-02-01T00:00:00Z",
+    "Month_Friendly": "February 2023",
+    "SalesQty": 9007.0,
+    "content": "Month: February 2023, Sales: 9007.0"
+  },
+  {
+    "Month_ISO": "2023-03-01T00:00:00Z",
+    "Month_Friendly": "March 2023",
+    "SalesQty": 8817.0,
+    "content": "Month: March 2023, Sales: 8817.0"
+  },
+  {
+    "Month_ISO": "2023-04-01T00:00:00Z",
+    "Month_Friendly": "April 2023",
+    "SalesQty": 10793.0,
+    "content": "Month: April 2023, Sales: 10793.0"
+  },
+  {
+    "Month_ISO": "2023-05-01T00:00:00Z",
+    "Month_Friendly": "May 2023",
+    "SalesQty": 7788.2,
+    "content": "Month: May 2023, Sales: 7788.2"
+  },
+  {
+    "Month_ISO": "2023-06-01T00:00:00Z",
+    "Month_Friendly": "June 2023",
+    "SalesQty": 9802.0,
+    "content": "Month: June 2023, Sales: 9802.0"
+  },
+  {
+    "Month_ISO": "2023-07-01T00:00:00Z",
+    "Month_Friendly": "July 2023",
+    "SalesQty": 12302.95,
+    "content": "Month: July 2023, Sales: 12302.95"
+  },
+  {
+    "Month_ISO": "2023-08-01T00:00:00Z",
+    "Month_Friendly": "August 2023",
+    "SalesQty": 9872.0,
+    "content": "Month: August 2023, Sales: 9872.0"
+  },
+  {
+    "Month_ISO": "2023-09-01T00:00:00Z",
+    "Month_Friendly": "September 2023",
+    "SalesQty": 10177.8,
+    "content": "Month: September 2023, Sales: 10177.8"
+  },
+  {
+    "Month_ISO": "2023-10-01T00:00:00Z",
+    "Month_Friendly": "October 2023",
+    "SalesQty": 9929.6,
+    "content": "Month: October 2023, Sales: 9929.6"
+  },
+  {
+    "Month_ISO": "2023-11-01T00:00:00Z",
+    "Month_Friendly": "November 2023",
+    "SalesQty": 8093.0,
+    "content": "Month: November 2023, Sales: 8093.0"
+  },
+  {
+    "Month_ISO": "2023-12-01T00:00:00Z",
+    "Month_Friendly": "December 2023",
+    "SalesQty": 9762.8,
+    "content": "Month: December 2023, Sales: 9762.8"
+  },
+  {
+    "Month_ISO": "2024-01-01T00:00:00Z",
+    "Month_Friendly": "January 2024",
+    "SalesQty": 10450.4,
+    "content": "Month: January 2024, Sales: 10450.4"
+  },
+  {
+    "Month_ISO": "2024-02-01T00:00:00Z",
+    "Month_Friendly": "February 2024",
+    "SalesQty": 10814.8,
+    "content": "Month: February 2024, Sales: 10814.8"
+  },
+  {
+    "Month_ISO": "2024-03-01T00:00:00Z",
+    "Month_Friendly": "March 2024",
+    "SalesQty": 12300.6,
+    "content": "Month: March 2024, Sales: 12300.6"
+  },
+  {
+    "Month_ISO": "2024-04-01T00:00:00Z",
+    "Month_Friendly": "April 2024",
+    "SalesQty": 11211.4,
+    "content": "Month: April 2024, Sales: 11211.4"
+  },
+  {
+    "Month_ISO": "2024-05-01T00:00:00Z",
+    "Month_Friendly": "May 2024",
+    "SalesQty": 14857.4,
+    "content": "Month: May 2024, Sales: 14857.4"
+  },
+  {
+    "Month_ISO": "2024-06-01T00:00:00Z",
+    "Month_Friendly": "June 2024",
+    "SalesQty": 14204.0,
+    "content": "Month: June 2024, Sales: 14204.0"
+  },
+  {
+    "Month_ISO": "2024-07-01T00:00:00Z",
+    "Month_Friendly": "July 2024",
+    "SalesQty": 13283.8,
+    "content": "Month: July 2024, Sales: 13283.8"
+  },
+  {
+    "Month_ISO": "2024-08-01T00:00:00Z",
+    "Month_Friendly": "August 2024",
+    "SalesQty": 15137.2,
+    "content": "Month: August 2024, Sales: 15137.2"
+  },
+  {
+    "Month_ISO": "2024-09-01T00:00:00Z",
+    "Month_Friendly": "September 2024",
+    "SalesQty": 15817.74,
+    "content": "Month: September 2024, Sales: 15817.74"
+  },
+  {
+    "Month_ISO": "2024-10-01T00:00:00Z",
+    "Month_Friendly": "October 2024",
+    "SalesQty": 15841.0,
+    "content": "Month: October 2024, Sales: 15841.0"
+  },
+  {
+    "Month_ISO": "2024-11-01T00:00:00Z",
+    "Month_Friendly": "November 2024",
+    "SalesQty": 15700.0,
+    "content": "Month: November 2024, Sales: 15700.0"
+  },
+  {
+    "Month_ISO": "2024-12-01T00:00:00Z",
+    "Month_Friendly": "December 2024",
+    "SalesQty": 18149.0,
+    "content": "Month: December 2024, Sales: 18149.0"
+  },
+  {
+    "Month_ISO": "2025-01-01T00:00:00Z",
+    "Month_Friendly": "January 2025",
+    "SalesQty": 21809.0,
+    "content": "Month: January 2025, Sales: 21809.0"
+  },
+  {
+    "Month_ISO": "2025-02-01T00:00:00Z",
+    "Month_Friendly": "February 2025",
+    "SalesQty": 17880.0,
+    "content": "Month: February 2025, Sales: 17880.0"
+  },
+  {
+    "Month_ISO": "2025-03-01T00:00:00Z",
+    "Month_Friendly": "March 2025",
+    "SalesQty": 18628.0,
+    "content": "Month: March 2025, Sales: 18628.0"
+  },
+  {
+    "Month_ISO": "2025-04-01T00:00:00Z",
+    "Month_Friendly": "April 2025",
+    "SalesQty": 23106.0,
+    "content": "Month: April 2025, Sales: 23106.0"
+  },
+  {
+    "Month_ISO": "2025-05-01T00:00:00Z",
+    "Month_Friendly": "May 2025",
+    "SalesQty": 24618.0,
+    "content": "Month: May 2025, Sales: 24618.0"
+  },
+  {
+    "Month_ISO": "2025-06-01T00:00:00Z",
+    "Month_Friendly": "June 2025",
+    "SalesQty": 26736.0,
+    "content": "Month: June 2025, Sales: 26736.0"
+  }
+]
