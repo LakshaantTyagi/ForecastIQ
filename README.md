@@ -1,237 +1,158 @@
-#📊 ForecastIQ – Smart Sales Prediction Assistant
+# ForecastIQ – Smart Sales Prediction Assistant
 
-ForecastIQ is a professional AI-powered sales forecasting application that combines statistical time-series modeling with conversational AI to enable smarter, faster, and more accessible sales decision-making.
+## Overview
 
-It is designed for both technical and non-technical users, allowing teams to upload sales data, generate forecasts, and ask natural-language questions about trends, performance, and business context.
+ForecastIQ is an AI-powered sales forecasting application designed to enhance sales planning and business decision-making. It integrates statistical time-series forecasting with conversational AI, allowing users to generate forecasts from historical data and interact with insights using natural language.
 
-🚀 Key Features
+The application is built to serve both technical and non-technical users through an intuitive web interface.
 
-📈 Automated Sales Forecasting
+---
 
-SARIMA-based time series forecasting
+## Problem Statement
 
-Automatic parameter selection based on accuracy (MAPE)
+Traditional sales forecasting and reporting approaches suffer from multiple challenges:
 
-🤖 Conversational AI Assistant
+- Manual and time-consuming spreadsheet-based workflows  
+- Static dashboards with limited analytical depth  
+- High technical complexity in building and interpreting forecasting models  
+- Lack of interactive and conversational data exploration  
 
-Natural language Q&A on forecasts
+ForecastIQ solves these issues by combining automated forecasting with AI-driven conversational insights.
 
-Context-aware follow-up questions
+---
 
-Business-friendly explanations
+## Key Features
 
-🔍 Retrieval-Augmented Generation (RAG)
+- Automated sales forecasting using SARIMA  
+- Automatic model selection based on accuracy metrics (MAPE)  
+- Natural language question answering on forecasted data  
+- Retrieval-Augmented Generation (RAG) using business knowledge  
+- Interactive visualizations of historical and forecasted trends  
+- Context-aware multi-turn conversations with memory  
 
-Combines forecast outputs with historical/business knowledge
+---
 
-Grounded, factual AI responses
+## High-Level Architecture
 
-📊 Interactive Visualizations
+ForecastIQ follows a modular and scalable architecture consisting of the following layers:
 
-Historical vs forecast trend plots
+### User Interaction Layer
+- Streamlit-based web application
+- Supports Excel upload, visualization, and chat interaction
 
-Clear comparison of past and future performance
+### Forecasting and Analytics Layer
+- SARIMA model implemented using statsmodels
+- Automatic parameter tuning for optimal accuracy
+- Generates forecast plots and performance metrics
 
-☁️ Azure-Integrated Architecture
+### AI and Knowledge Layer
+- Azure OpenAI (GPT-3.5 Turbo) for conversational intelligence
+- Azure Cognitive Search for knowledge retrieval (RAG)
+- Enables contextual and factual responses
 
-Secure, scalable, and enterprise-ready
+### Integration and Deployment Layer
+- Azure OpenAI Service
+- Azure Cognitive Search
+- Azure Blob Storage
+- Python backend using Streamlit and LangChain
 
-🧠 Problem Statement
+---
 
-Traditional sales forecasting and reporting approaches suffer from:
+## End-to-End Workflow
 
-Manual and time-consuming spreadsheet workflows
+1. User uploads an Excel file containing historical sales data  
+2. Data is preprocessed and passed to the SARIMA forecasting pipeline  
+3. Forecasted values are generated and evaluated  
+4. Key insights are indexed into Azure Cognitive Search  
+5. User queries are processed using Azure OpenAI with retrieved context  
+6. Forecasts and AI-generated insights are displayed in the UI  
 
-Static dashboards with limited analytical depth
+---
 
-High technical barrier to understanding forecasting models
+## Technology Stack
 
-No interactive way for business teams to explore insights
+- Frontend: Streamlit (Python)  
+- Forecasting Model: SARIMA (statsmodels)  
+- AI Assistant: Azure OpenAI (GPT-3.5 Turbo)  
+- Knowledge Retrieval: Azure Cognitive Search  
+- Data Handling: Pandas, JSON  
+- Storage: Azure Blob Storage  
+- Hosting: Local / Streamlit Cloud / Azure  
 
-ForecastIQ solves this by combining statistical modeling with conversational AI, enabling users to:
+---
 
-Automatically generate forecasts from historical data
+## Azure Services Used
 
-Perform “what-if” analysis using updated datasets
+### Azure OpenAI
+- Powers the conversational AI assistant
+- Enables natural language understanding and contextual responses
+- Provides enterprise-grade security and scalability
 
-Ask natural-language questions about trends and performance
+### Azure Blob Storage
+- Stores uploaded Excel datasets
+- Ensures persistence and reproducibility of forecasts
+- Supports future scalability
 
-Democratize data insights across teams
+### Azure Cognitive Search
+- Acts as the knowledge base for RAG
+- Indexes structured and unstructured business data
+- Improves factual accuracy of AI responses
 
-🏗️ High-Level Architecture
+---
 
-ForecastIQ is built using a modular, layered architecture:
+## Application Workflow
 
-1️⃣ User Interaction Layer
+### Dataset Upload
+- User uploads historical sales data in Excel format
 
-Streamlit Web App
+### Forecast Generation
+- SARIMA parameters are automatically selected
+- Forecasts generated based on accuracy metrics
 
-Excel upload, forecast visualization, and chat interface
+### Knowledge Base Indexing
+- Processed data and insights indexed into Azure Cognitive Search
 
-Designed for both technical and business users
+### Query Handling
+- Relevant context retrieved from search index
+- GPT model generates a grounded response
 
-2️⃣ Forecasting & Analytics Layer
+### User Interaction
+- Forecast plots displayed
+- Chat interface supports follow-up questions and comparisons
 
-SARIMA (statsmodels)
+---
 
-Automated selection of best (p, d, q, P, D, Q, s) parameters
+## Testing and Validation
 
-Outputs:
+- Unit testing for forecasting and preprocessing logic  
+- Integration testing across upload, forecast, and chat pipeline  
+- System testing for end-to-end stability  
+- User acceptance testing with sample business datasets  
 
-Forecast plots
+---
 
-Accuracy metrics (MAPE, RMSE)
+## Cost Analysis
 
-3️⃣ AI & Knowledge Layer
+- Azure OpenAI (GPT-3.5 Turbo): Rs 3.69  
+- Azure Blob Storage: Rs 0.48  
+- Azure Cognitive Search: Free tier  
 
-Azure OpenAI (GPT-3.5-Turbo) for conversational intelligence
+Total development and testing cost: Rs 4.17
 
-Azure Cognitive Search for retrieval-augmented generation (RAG)
+---
 
-Enables:
+## Future Enhancements
 
-Context-aware Q&A
+- Automatic selection among multiple forecasting models  
+- Persistent and shareable chat sessions  
+- Full deployment using Azure App Service  
+- Semantic and vector-based search indexing  
+- Batch ingestion and scheduled data pipelines  
 
-Multi-turn conversations with memory
+---
 
-4️⃣ Integration & Deployment Layer
+## How to Run Locally
 
-Azure OpenAI
-
-Azure Cognitive Search
-
-Azure Blob Storage
-
-Python backend using Streamlit & LangChain
-
-🔄 End-to-End Workflow
-
-User uploads an Excel dataset via Streamlit
-
-SARIMA model generates future sales forecasts
-
-Relevant data & documents are indexed in Azure AI Search
-
-User asks questions via chat interface
-
-Azure OpenAI combines:
-
-Forecast data
-
-Retrieved historical/business context
-
-Insights, charts, and explanations are returned to the UI
-
-🛠️ Technology Stack
-Component	Technology
-Frontend	Streamlit (Python)
-Forecasting	SARIMA (statsmodels)
-AI Assistant	Azure OpenAI (GPT-3.5-Turbo)
-Knowledge Retrieval	Azure Cognitive Search (RAG)
-Data Handling	Pandas, JSON
-Storage	Azure Blob Storage
-Hosting	Local / Streamlit Cloud / Azure (optional)
-☁️ Azure Services Used
-🔹 Azure OpenAI
-
-Powers conversational AI
-
-Handles natural language queries such as:
-
-“What is the forecast for the next 6 months?”
-
-“Compare sales growth between Q1 and Q2”
-
-Ensures secure, enterprise-grade LLM access
-
-🔹 Azure Blob Storage
-
-Stores uploaded Excel files
-
-Enables persistence and reproducibility
-
-Scales easily with growing datasets
-
-🔹 Azure Cognitive Search
-
-Acts as the knowledge base for RAG
-
-Indexes structured & unstructured business data
-
-Improves factual accuracy of AI responses
-
-🧩 Application Workflow (Step-by-Step)
-
-Dataset Upload
-
-User uploads historical sales data (Excel)
-
-Forecast Generation
-
-SARIMA model selection based on MAPE
-
-Forecast generated for upcoming periods
-
-Knowledge Indexing
-
-Key insights indexed into Azure Cognitive Search
-
-AI-Driven Query Handling
-
-Search retrieves relevant facts
-
-GPT generates contextual responses
-
-UI Interaction
-
-Forecast plots + chat-based insights
-
-Supports follow-up questions and comparisons
-
-🧪 Testing & Validation
-
-Unit Testing
-
-SARIMA fitting and data preprocessing
-
-Integration Testing
-
-Upload → Forecast → Chat pipeline
-
-System Testing
-
-End-to-end application flow
-
-User Acceptance Testing (UAT)
-
-Tested with sample business datasets
-
-💰 Cost Analysis (Development & Testing)
-
-Azure OpenAI (GPT-3.5 Turbo): ₹3.69
-
-Azure Blob Storage: ₹0.48
-
-Azure AI Search: Free Tier
-
-Total Cost: ₹4.17
-
-🔮 Future Enhancements
-
-🔁 Auto-selection across multiple forecasting models
-
-💬 Persistent & shareable chat sessions
-
-☁️ Full Azure App Service deployment
-
-🔍 Vector search & semantic ranking
-
-📦 Batch ingestion pipelines
-
-📌 How to Run Locally
+```bash
 pip install -r requirements.txt
 streamlit run app.py
-
-🏷️ Keywords
-
-Time Series Forecasting · SARIMA · Azure OpenAI · RAG · Streamlit · Sales Analytics · AI Assistant
