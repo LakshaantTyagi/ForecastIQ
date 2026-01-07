@@ -1,4 +1,4 @@
-📊 ForecastIQ – Smart Sales Prediction Assistant
+#📊 ForecastIQ – Smart Sales Prediction Assistant
 
 ForecastIQ is a professional AI-powered sales forecasting application that combines statistical time-series modeling with conversational AI to enable smarter, faster, and more accessible sales decision-making.
 
